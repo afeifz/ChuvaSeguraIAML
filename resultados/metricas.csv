@@ -1,0 +1,6 @@
+,precisão,recall,F1,F2,PR-AUC,ROC-AUC
+Random Forest – treino (dentro da amostra),0.225,0.999,0.368,0.592,0.615,0.991
+Random Forest – TESTE,0.12,0.531,0.196,0.316,0.156,0.901
+Referência: sorteio pela proporção – teste,0.0,0.0,0.0,0.0,0.014,0.5
+Referência: regra 'choveu ≥ 1 mm em 3 h' – teste,0.101,0.425,0.163,0.258,0.084,0.731
+Random Forest – validação cruzada (PR-AUC),,,,,0.154,

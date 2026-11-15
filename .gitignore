@@ -1,0 +1,4 @@
+# ZIPs anuais do INMET são grandes: não versionar (o passo a passo para baixar está em dados/README.md)
+dados/inmet/*.zip
+__pycache__/
+.ipynb_checkpoints/

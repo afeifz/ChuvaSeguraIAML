@@ -1,0 +1,29 @@
+{
+  "estacao": "A701",
+  "periodo_treino": "2019-2024",
+  "ano_teste": 2025,
+  "horizonte_h": 3,
+  "limiar_mm": 10.0,
+  "limiar_decisao": 0.4234,
+  "melhores_hiperparametros": {
+    "n_estimators": 100,
+    "min_samples_leaf": 20,
+    "max_depth": 16
+  },
+  "metricas_teste": {
+    "precisão": 0.12,
+    "recall": 0.531,
+    "F1": 0.196,
+    "F2": 0.316,
+    "PR-AUC": 0.156,
+    "ROC-AUC": 0.901
+  },
+  "leitura_cidadao": {
+    "ano_teste": 2025,
+    "episodios_reais": 34,
+    "episodios_avisados": 23,
+    "episodios_alerta": 118,
+    "alarmes_falsos": 91,
+    "alarmes_falsos_por_mes": 7.58
+  }
+}
